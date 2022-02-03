@@ -1,0 +1,167 @@
+
+@media only screen and (max-width: 749px){
+    *::after{
+        display: none;
+    }
+    .main-three h1{
+        font-size: 2rem;
+    }
+
+    .main-one p{
+        font-size: 4.7rem;
+    }
+    .main-one .www{
+        transform: translate(50% , 0rem);
+    }
+    .regular-one{
+        padding-bottom: 2rem;
+    }
+    
+
+}
+@media only screen and (max-width: 600px) {
+
+
+    
+    .main-one{
+
+        max-width: 400px;
+
+    }
+    
+
+    .main-one .www{
+        transform: translate(2.3rem , 2rem);
+        display: none;
+    }
+   
+    .main-one p{
+        font-size: 3rem;
+    }
+
+    .footer{
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    
+
+    .main-two-con-one{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2rem;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .main-two-con-two{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0;
+    
+    }
+    .main-two-con-one .two-one,
+    .main-two-con-two .two-one{
+        margin-bottom: 3rem;
+    }
+
+    .main-two h1{
+        font-size: 2.5rem;
+        text-align: center;
+        font-weight: 400;
+    }
+
+    .main-two-con{
+
+        margin-inline: auto;
+    }
+     
+
+
+
+
+}
+
+@media only screen and (max-width: 980px) {
+
+
+    .main-two-con-two{
+        margin-bottom: 0;
+    }
+
+    .main-two-con-one{
+        margin-bottom: 2rem;
+    }
+    .main-two-con-one,
+    .main-two-con-two{
+        display: flex;
+        
+        margin-inline: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .main-two-con-one .two-one,
+    .main-two-con-two .two-one{
+        margin-bottom: 3rem;
+    }
+    .main-two-con-one{
+        margin-bottom: 0.9rem;
+    }
+
+}
+
+@media only screen and (max-width: 800px){
+
+    .main-one-contact{
+        flex-direction: column-reverse;
+    
+    }
+    .s-icons{
+        text-align: center;
+        margin-top: 3rem;
+        font-size: 2rem;
+        padding: 0;
+        
+    
+    }
+    .s-icons i{
+        margin: 1rem;
+    }
+    .right-contact{
+     border-left: 0;
+     padding: 0;
+    
+    }
+    
+    .four-con{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 45rem;
+        margin-inline: auto;
+        padding-bottom: 3rem;
+    }
+
+    .main-four h1{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .four-con-item h2{
+        text-align: center;
+    }
+    .four-con-img {
+        text-align: center;
+    }
+    .four-con-img img {
+        display: inline;
+    }
+        
+    
+    
+}
